@@ -14,8 +14,9 @@
 /*** SOLUTION ***/
 public class ParrotTrouble {
     public boolean parrotTrouble (boolean talking, int hour) {
-        if (talking == true && (hour <7 || hour>20)) return true;
-        else return false;
+//        if (talking == true && (hour <7 || hour>20)) return true;
+//        else return false;
+        return (talking == true && (hour <7 || hour>20));
     }
 
     public static void main(String[] args) {
