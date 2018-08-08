@@ -36,4 +36,3 @@ buildNumber.properties
 #Idea project
 .idea/
 target/
-*.iml
