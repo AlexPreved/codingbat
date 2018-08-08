@@ -12,7 +12,7 @@
 //  }
 
 
-    /*** SOLUTION ***/
+/*** SOLUTION ***/
 public class SeepIn {
 
     public boolean sleepIn(boolean weekday, boolean vacation) {
