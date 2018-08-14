@@ -9,10 +9,18 @@
 
 public class FrontBack {
     public String frontBack(String str) {
-//        String first = str.substring(0,1);
-//        String mid = str.substring(1,str.length()-1);
-//        String last = str.substring(str.length()-1, str.length());
-//
-//        return  last + mid + first;
+        if (str.length()>1) {
+
+        String first = str.substring(0,1);
+        String mid = str.substring(1,str.length()-1);
+        String last = str.substring(str.length()-1, str.length());
+
+        return  last + mid + first;}
+
+        return str;
+    }
+
+    public static void main(String[] args) {
+
     }
 }
