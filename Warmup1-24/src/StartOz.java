@@ -14,7 +14,7 @@ public class StartOz {
         // if (str.length() > 0 && str.charAt(0) == 'o') o = String.valueOf('o');
         // if (str.length() > 1 && str.charAt(1) == 'z') z = String.valueOf('z');
         // return o + z;
-        
+
         String ret = "";
         if (str.length() > 0 && str.charAt(0) == 'o') ret += str.charAt(0);
         if (str.length() > 1 && str.charAt(1) == 'z') ret += str.charAt(1);
