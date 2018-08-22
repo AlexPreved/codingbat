@@ -24,11 +24,11 @@ public class CardMask {
             int cutA = 0, cutE;
 
             cutE = 0;
-            while ((str.length()- cutE - cutA > 3) ||(str.length()- cutE - cutA > 4)) {
+            while (str.length()- cutE - cutA > 3) {
                 cutA = cutE +1;
                 cutE++;
             }
-            
+
 //            for (cutE = 1; ((str.length()- cutE - cutA == 3) ||(str.length()- cutE - cutA == 4)); cutE++){
 //                cutA = cutE +1;
 //            }
